@@ -118,7 +118,7 @@ class SearchHelper
         }
 
         if (empty($arSearchResult) || empty($arSearchResult['matches'])) {
-            return [];
+            return;
         }
 
         $this->arResultIDList = array_keys($arSearchResult['matches']);
