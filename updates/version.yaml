@@ -1,0 +1,6 @@
+1.0.0:
+    - 'Initialize plugin.'
+    - update_table_brand.php
+    - update_table_product.php
+    - update_table_category.php
+    - update_table_tag.php

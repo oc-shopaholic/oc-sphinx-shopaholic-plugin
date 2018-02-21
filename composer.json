@@ -1,0 +1,5 @@
+{
+  "require": {
+      "sngrl/sphinxsearch": "dev-master"
+  }
+}
