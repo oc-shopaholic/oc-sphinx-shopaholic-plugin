@@ -8,11 +8,11 @@ to [Product](https://github.com/lovata/oc-shopaholic-plugin/wiki/ProductModel),
 [Category](https://github.com/lovata/oc-shopaholic-plugin/wiki/CategoryModel),
 [Tag](https://github.com/lovata/oc-shopaholic-plugin/wiki/TagModel) models.
 
-[Sphinx for Shopaholic](http://octobercms.com/plugin/lovata-sphinxshopaholic) plugin adds search($sSphinxString) to
+[Sphinx for Shopaholic](http://octobercms.com/plugin/lovata-sphinxshopaholic) plugin adds search($sSphinxString) method to
 **[ProductCollection](https://github.com/lovata/oc-shopaholic-plugin/wiki/ProductCollection)**,
 **[BrandCollection](https://github.com/lovata/oc-shopaholic-plugin/wiki/BrandCollection)**,
 **[CategoryCollection](https://github.com/lovata/oc-shopaholic-plugin/wiki/CategoryCollection)**,
-**[TagCollection](https://github.com/lovata/oc-shopaholic-plugin/wiki/TagCollection)**, classes.
+**[TagCollection](https://github.com/lovata/oc-shopaholic-plugin/wiki/TagCollection)** classes.
 
 ## Installation Guide
 
