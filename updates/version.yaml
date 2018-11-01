@@ -4,3 +4,5 @@
     - update_table_product.php
     - update_table_category.php
     - update_table_tag.php
+1.0.1:
+    - 'Fixed checking the extension of form fields in backend.'
