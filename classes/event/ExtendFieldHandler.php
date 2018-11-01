@@ -35,7 +35,7 @@ class ExtendFieldHandler
     private function extendProductFields($obWidget)
     {
         // Only for the Products controller
-        if (!$obWidget->getController() instanceof Products || $obWidget->isNested) {
+        if (!$obWidget->getController() instanceof Products || $obWidget->isNested || empty($obWidget->context)) {
             return;
         }
 
@@ -54,7 +54,7 @@ class ExtendFieldHandler
     private function extendBrandFields($obWidget)
     {
         // Only for the Brands controller
-        if (!$obWidget->getController() instanceof Brands || $obWidget->isNested) {
+        if (!$obWidget->getController() instanceof Brands || $obWidget->isNested || empty($obWidget->context)) {
             return;
         }
 
@@ -73,7 +73,7 @@ class ExtendFieldHandler
     private function extendCategoryFields($obWidget)
     {
         // Only for the Categories controller
-        if (!$obWidget->getController() instanceof Categories || $obWidget->isNested) {
+        if (!$obWidget->getController() instanceof Categories || $obWidget->isNested || empty($obWidget->context)) {
             return;
         }
 
@@ -92,7 +92,7 @@ class ExtendFieldHandler
     private function extendTagFields($obWidget)
     {
         // Only for the Tags controller
-        if (!$obWidget->getController() instanceof \Lovata\TagsShopaholic\Controllers\Tags || $obWidget->isNested) {
+        if (!$obWidget->getController() instanceof \Lovata\TagsShopaholic\Controllers\Tags || $obWidget->isNested || empty($obWidget->context)) {
             return;
         }
 
