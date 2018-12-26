@@ -1,14 +1,14 @@
 <?php return [
     'plugin' => [
         'name'        => 'Sphinx for Shopaholic',
-        'description' => 'Поиск товаров, категорий, брендов, тегов',
+        'description' => ' Sphinx search by products, categories, brands, tags',
     ],
     'tab'    => [
-        'search_content'  => 'Поисковый контент',
-        'search_settings' => 'Поиск',
+        'search_content'  => 'Search content',
+        'search_settings' => 'Search',
     ],
     'field'  => [
-        'search_synonym'       => 'Синонимы для поиска',
-        'search_content'       => 'Контент для поиска',
+        'search_synonym'       => 'Search synonyms',
+        'search_content'       => 'Search content',
     ],
 ];
