@@ -33,7 +33,7 @@ class TagModelHandler
                 $obSearchHelper = app(SearchHelper::class, ['tag']);
                 $arElementIDList = $obSearchHelper->result($sSearch);
 
-                return $obCollection->intersect($arElementIDList);
+                return $obCollection->applySorting($arElementIDList);
             });
         });
     }

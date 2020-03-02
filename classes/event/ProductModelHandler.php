@@ -30,7 +30,7 @@ class ProductModelHandler
                 $obSearchHelper = app(SearchHelper::class, ['product']);
                 $arElementIDList = $obSearchHelper->result($sSearch);
 
-                return $obCollection->intersect($arElementIDList);
+                return $obCollection->applySorting($arElementIDList);
             });
         });
     }

@@ -30,7 +30,7 @@ class CategoryModelHandler
                 $obSearchHelper = app(SearchHelper::class, ['category']);
                 $arElementIDList = $obSearchHelper->result($sSearch);
 
-                return $obCollection->intersect($arElementIDList);
+                return $obCollection->applySorting($arElementIDList);
             });
         });
     }
