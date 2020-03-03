@@ -10,6 +10,7 @@ cgi-bin/
 *.bin
 *.komodoproject
 /.komodotools/
+/build.sh
 
 # PhpStorm
 .idea

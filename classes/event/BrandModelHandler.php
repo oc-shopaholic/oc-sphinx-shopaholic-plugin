@@ -30,7 +30,7 @@ class BrandModelHandler
                 $obSearchHelper = app(SearchHelper::class, ['brand']);
                 $arElementIDList = $obSearchHelper->result($sSearch);
 
-                return $obCollection->intersect($arElementIDList);
+                return $obCollection->applySorting($arElementIDList);
             });
         });
     }
